@@ -83,7 +83,7 @@
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-  background-color: offwhite;
+  background-color: lavender;
   padding: 2rem;
 }
 
@@ -232,9 +232,20 @@ header {
   cursor: pointer;
  }
 
+
+
+
 /*
  * My Work
  */
+
+.worktitle {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
  .all-my-work {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -249,7 +260,8 @@ header {
 
 .my-work-item img {
   max-width: 100%; 
-  height: auto;
+  border-radius: 1rem;
+  border: 2px solid black;
   overflow: hidden;
   object-fit: cover;
   overflow: hidden;
