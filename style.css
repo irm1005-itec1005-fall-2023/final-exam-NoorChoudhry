@@ -290,17 +290,37 @@ header {
   flex-direction: row;
 }
 
+
 /*
-* Contact Me
-*/
+ * Contact Me
+ */
 
 .contact-me {
   margin-top: 2rem;
   margin-bottom: 2rem;
-
   background-color: #cdb4db;
   border-radius: 1rem;
+  padding-bottom: 2rem;
 }
+
+.contact-me-text {
+  padding: 2rem;
+}
+
+.bottom-contact {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-left: 2rem;
+}
+
+.bottom-contact:hover {
+  background-color: #797979;
+  cursor: pointer;
+}
+
 
 
 /*
