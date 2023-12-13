@@ -74,10 +74,51 @@ header {
 .grid-section ul {
   display: grid;
   list-style: none;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr;
   grid-gap: 1rem;
-  border: 1px solid black;
 }
+.grid-section li {
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+}
+.lpink {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+  background-color: #ffafcc;
+}
+.dpink {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+  background-color: #ffc8dd;
+}
+.lblue {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+  background-color: #bde0fe;
+}
+.dblue {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+  background-color: #a2d2ff;
+}
+
 .purpweb {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -86,7 +127,7 @@ header {
 
   background-color: #cdb4db;
 }
-.lpinkweb {
+.lpink {
   grid-column-start: 3;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -102,8 +143,28 @@ header {
 
   background-color: #ffc8dd;
 }
+.lblue {
+  grid-column: 5;
+  grid-row-start: 1;
+  grid-row-end: 1;
+
+  background-color: #bde0fe;
+}
+.dblue {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row: 2;
 
 
+  background-color: #a2d2ff;
+}
+.purp {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row: 2;
+
+  background-color: #cdb4db;
+}
 
 /*
  * SR-ONLY
