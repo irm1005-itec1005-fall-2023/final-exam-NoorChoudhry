@@ -28,9 +28,57 @@
  * }
  */
 
- html {
-  font-size: 1.0rem;
-}
+@media screen and (min-width: 800px) {
+      body {
+        padding: 1rem;
+      }
+
+      header {
+        padding: 1rem;
+      }
+
+      header img {
+        width: 30px;
+      }
+
+      header a {
+        padding: 0.3rem;
+      }
+
+      .hero p {
+        padding-bottom: 1rem;
+      }
+
+      .grid-section ul {
+        grid-template-columns: repeat(4, 1fr); /* Adjust to 1x4 for mobile */
+      }
+
+      .about-me h1,
+      .about-me p {
+        margin-left: 0;
+        padding: 1rem;
+      }
+
+      .pinkgirl {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 1rem;
+      }
+
+      .my-work-item p {
+        margin: 2px;
+      }
+
+      footer {
+        padding: 1rem;
+      }
+
+    html {
+      font-size: 1.0rem;
+    }
+  }
+
 
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -342,8 +390,6 @@ footer img {
   padding: 0.6rem;
   border-radius: 1rem;
 }
-
-
 
 /*
  * SR-ONLY
