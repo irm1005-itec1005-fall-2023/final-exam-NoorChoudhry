@@ -74,8 +74,8 @@ header {
 .grid-section ul {
   display: grid;
   list-style: none;
-  grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
-  grid-template-rows: 1fr, 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-gap: 1rem;
 }
 .grid-section li {
@@ -85,6 +85,16 @@ header {
   font-size: 1.2rem;
   font-weight: bold;
   color: black;
+  height: 100%;
+  width: 100%;
+}
+.purpweb {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+  background-color: #cdb4db;
 }
 .lpink {
   grid-column-start: 3;
@@ -117,15 +127,6 @@ header {
   grid-row-end: 2;
 
   background-color: #a2d2ff;
-}
-
-.purpweb {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-
-  background-color: #cdb4db;
 }
 .lpink {
   grid-column-start: 3;
