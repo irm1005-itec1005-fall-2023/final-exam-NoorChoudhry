@@ -321,6 +321,28 @@ header {
   cursor: pointer;
 }
 
+/*
+ * Footer
+ */
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  border-top: 1px solid #797979;
+  color: #797979;
+}
+
+
+footer img {
+  width: 50px;
+  height: auto;
+
+  padding: 0.6rem;
+  border-radius: 1rem;
+}
+
 
 
 /*
