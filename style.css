@@ -180,7 +180,7 @@ header {
  }
 
 /*
- * My Work
+ * My Work blocks
  */
 .lpink {
   grid-column: 3;
@@ -257,31 +257,20 @@ header {
 /*
  * My Work
  */
-.my-work {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  height: 250px;
+ .my-work-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; 
 }
 
 .my-work-item {
-  width: 50%;
+  width: 100%;
   box-sizing: border-box;
 }
 
-.my-work-item img {
-  border: 2px solid black;
-  border-radius: 0.5rem;
-}
 
-.my-work-item p {
-  font-size: 0.5rem;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 5rem;
-  background-color: #ffafcc;
+.my-work-item img {
+  max-width: 100%; 
 }
 
 /*
