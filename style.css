@@ -50,7 +50,7 @@
       }
 
       .grid-section ul {
-        grid-template-columns: repeat(4, 1fr); /* Adjust to 1x4 for mobile */
+        grid-template-columns: repeat(4, 1fr);
       }
 
       .about-me h1,
