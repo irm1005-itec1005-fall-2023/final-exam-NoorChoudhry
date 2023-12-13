@@ -67,6 +67,41 @@ header {
   padding: 2rem;
 }
 
+/*
+ * Skills
+ */
+
+.grid-section ul {
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1rem;
+  border: 1px solid black;
+}
+.purpweb {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+  background-color: #cdb4db;
+}
+.lpinkweb {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+
+  background-color: #ffafcc;
+}
+.dpink {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+
+  background-color: #ffc8dd;
+}
 
 
 
